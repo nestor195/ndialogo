@@ -1,0 +1,38 @@
+.Ndialogo{
+    --color-bg: #fff;
+    --color-text: #000;
+}
+
+.Ndialogo{
+    position: fixed;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid #79bff8;
+    border-radius: 7px;
+    overflow: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    min-width: 100px;
+    max-width: 90vw;
+    max-height: 90vh;
+    padding: 0;
+}
+
+.NdialogoTitle{
+    background-color : #2196f3;
+    color : white;
+    text-align: center;
+    padding : 8px;
+    font-weight : bold;
+    cursor : move;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+.NdialogoBody{
+    padding: .5em 1em;
+    overflow: auto;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
